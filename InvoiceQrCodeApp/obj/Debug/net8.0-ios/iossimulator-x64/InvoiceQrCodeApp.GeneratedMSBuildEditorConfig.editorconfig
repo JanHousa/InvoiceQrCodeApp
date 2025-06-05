@@ -1,0 +1,91 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = InvoiceQrCodeApp
+build_property.ProjectDir = C:\Users\honza\source\repos\InvoiceQrCodeApp2\InvoiceQrCodeApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/InvoiceQrCodeApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.InvoiceQrCodeApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = InvoiceQrCodeApp\App.xaml
+build_metadata.AdditionalFiles.RelativePath = InvoiceQrCodeApp\App.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/InvoiceQrCodeApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.InvoiceQrCodeApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = InvoiceQrCodeApp\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = InvoiceQrCodeApp\AppShell.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/InvoiceQrCodeApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.InvoiceQrCodeApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = InvoiceQrCodeApp\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = InvoiceQrCodeApp\MainPage.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/InvoiceQrCodeApp/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.InvoiceQrCodeApp.obj.Debug.net8._0_windows10._0._19041._0.win10_x64.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = InvoiceQrCodeApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = InvoiceQrCodeApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/InvoiceQrCodeApp/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.InvoiceQrCodeApp.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = InvoiceQrCodeApp\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = InvoiceQrCodeApp\Platforms\Windows\App.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/InvoiceQrCodeApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.InvoiceQrCodeApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = InvoiceQrCodeApp\Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = InvoiceQrCodeApp\Resources\Styles\Colors.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/InvoiceQrCodeApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.InvoiceQrCodeApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = InvoiceQrCodeApp\Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = InvoiceQrCodeApp\Resources\Styles\Styles.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/honza/source/repos/InvoiceQrCodeApp2/InvoiceQrCodeApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InvoiceQrCodeApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

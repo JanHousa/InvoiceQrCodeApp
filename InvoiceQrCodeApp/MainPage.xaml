@@ -1,0 +1,109 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="InvoiceQrCodeApp.MainPage">
+
+    <!-- Definice stylů pro použití v rámci této stránky -->
+    <ContentPage.Resources>
+
+        <!-- Hlavní primární barva (např. fialová) -->
+        <Color x:Key="PrimaryColor">#7B1FA2</Color>
+        <!-- Sekundární barva (pro hover, doplňkovou grafiku, rámečky apod.) -->
+        <Color x:Key="SecondaryColor">#9C27B0</Color>
+
+        <!-- Styl pro hlavní popisky (StatusLabel) -->
+        <Style x:Key="StatusLabelStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="TextColor" Value="{StaticResource PrimaryColor}" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center" />
+        </Style>
+
+        <!-- Styl pro ostatní popisky (návodné kroky apod.) -->
+        <Style x:Key="InstructionLabelStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="TextColor" Value="#555555" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center" />
+        </Style>
+
+        <!-- Styl pro tlačítka -->
+        <Style x:Key="PrimaryButtonStyle" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="CornerRadius" Value="8" />
+            <Setter Property="WidthRequest" Value="250" />
+            <Setter Property="HeightRequest" Value="60" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center" />
+        </Style>
+
+        <!-- Styl pro Frame s „card“ designem -->
+        <Style x:Key="CardFrameStyle" TargetType="Frame">
+            <Setter Property="CornerRadius" Value="16" />
+            <Setter Property="BorderColor" Value="{StaticResource SecondaryColor}" />
+            <Setter Property="HasShadow" Value="True" />
+            <Setter Property="Padding" Value="20" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="BackgroundColor" Value="White" />
+        </Style>
+
+    </ContentPage.Resources>
+
+    <!-- Jemný gradient na pozadí -->
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <!-- Světlejší odstín nahoře -->
+            <GradientStop Color="#F7F7F7" Offset="0.0" />
+            <!-- Tmavší odstín vespod -->
+            <GradientStop Color="#E2E2E2" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <!-- Obsah stránky -->
+    <ScrollView>
+        <VerticalStackLayout Padding="20"
+                             Spacing="20"
+                             HorizontalOptions="FillAndExpand"
+                             VerticalOptions="CenterAndExpand">
+
+            <!-- Vložený „card“ pro zvýraznění obsahu -->
+            <Frame Style="{StaticResource CardFrameStyle}">
+                <VerticalStackLayout Spacing="20">
+
+                    <!-- Status label -->
+                    <Label x:Name="StatusLabel"
+                           Text="Stav: Čekání na akci..."
+                           Style="{StaticResource StatusLabelStyle}" />
+
+                    <!-- Tlačítka se základními funkcemi -->
+                    <Button Text="Vybrat Fakturu"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            Clicked="OnPickFileClicked" />
+
+                    <Button Text="Generovat QR kód"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            Clicked="OnSendEmailClicked" />
+
+                    <!-- Popisky s krokovým návodem -->
+                    <VerticalStackLayout Spacing="10">
+                        <Label Text="1. Klikni na Vybrat Fakturu"
+                               Style="{StaticResource InstructionLabelStyle}" />
+                        <Label Text="2. Vyber fakturu z OneDrive"
+                               Style="{StaticResource InstructionLabelStyle}" />
+                        <Label Text="3. Klikni na Generovat QR kód"
+                               Style="{StaticResource InstructionLabelStyle}" />
+                        <Label Text="4. Zvol tisk, nebo sdílet"
+                               Style="{StaticResource InstructionLabelStyle}" />
+                    </VerticalStackLayout>
+
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
